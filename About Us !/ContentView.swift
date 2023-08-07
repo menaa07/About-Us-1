@@ -7,17 +7,22 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-                .bold()
-                .foregroundColor(.brown)
+        TabView {
+            Person1View()
+                .tabItem { Label("mena", systemImage: "person.circle.fill")
+                }
+            Text("This is person 2! Replace me with another view.")
+                .tabItem {
+                    Label("Person 2", systemImage: "person.circle.fill")
+                }
+            Text("This is person 3! Replace me with yet another view.")
+                .tabItem {
+                    Label("Person 3", systemImage: "person.circle.fill")
+                }
         }
-        .padding()
     }
 }
 
