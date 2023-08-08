@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C5DE0DA2A82A01900597C39 /* Person2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5DE0D92A82A01900597C39 /* Person2View.swift */; };
+		1C5DE0DC2A82A3B300597C39 /* Fatima.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C5DE0DB2A82A3B300597C39 /* Fatima.xcassets */; };
 		65023C722A7FBE2D00D2F254 /* About_Us__App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65023C712A7FBE2D00D2F254 /* About_Us__App.swift */; };
 		65023C742A7FBE2D00D2F254 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65023C732A7FBE2D00D2F254 /* ContentView.swift */; };
 		65023C762A7FBE2E00D2F254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65023C752A7FBE2E00D2F254 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C5DE0D92A82A01900597C39 /* Person2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person2View.swift; sourceTree = "<group>"; };
+		1C5DE0DB2A82A3B300597C39 /* Fatima.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Fatima.xcassets; sourceTree = "<group>"; };
 		65023C6E2A7FBE2D00D2F254 /* About Us !.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "About Us !.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65023C712A7FBE2D00D2F254 /* About_Us__App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About_Us__App.swift; sourceTree = "<group>"; };
 		65023C732A7FBE2D00D2F254 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +45,8 @@
 		65023C652A7FBE2D00D2F254 = {
 			isa = PBXGroup;
 			children = (
+				1C5DE0DB2A82A3B300597C39 /* Fatima.xcassets */,
+				1C5DE0D92A82A01900597C39 /* Person2View.swift */,
 				65860A0E2A80576900CAAB55 /* art.xcassets */,
 				65860A082A80567100CAAB55 /* mena.xcassets */,
 				65860A062A8055DA00CAAB55 /* Person1View.swift */,
@@ -138,6 +144,7 @@
 				65023C762A7FBE2E00D2F254 /* Assets.xcassets in Resources */,
 				65860A092A80567100CAAB55 /* mena.xcassets in Resources */,
 				65860A0F2A80576900CAAB55 /* art.xcassets in Resources */,
+				1C5DE0DC2A82A3B300597C39 /* Fatima.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5DE0DA2A82A01900597C39 /* Person2View.swift in Sources */,
 				65023C742A7FBE2D00D2F254 /* ContentView.swift in Sources */,
 				65023C722A7FBE2D00D2F254 /* About_Us__App.swift in Sources */,
 				65860A072A8055DA00CAAB55 /* Person1View.swift in Sources */,

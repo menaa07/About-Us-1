@@ -14,9 +14,8 @@ struct ContentView: View {
             Person1View()
                 .tabItem { Label("mena", systemImage: "person.circle.fill")
                 }
-            Text("This is person 2! Replace me with another view.")
-                .tabItem {
-                    Label("Person 2", systemImage: "person.circle.fill")
+            Person2View()
+                            .tabItem { Label("Fatima", systemImage: "person.circle.fill")
                 }
             Text("This is person 3! Replace me with yet another view.")
                 .tabItem {
