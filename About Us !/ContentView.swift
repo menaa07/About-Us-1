@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  About Us !
-//
-//  Created by Mena Haitham on 06/08/2023.
-//
-
 import SwiftUI
 
 
@@ -17,9 +10,9 @@ struct ContentView: View {
             Person2View()
                             .tabItem { Label("Fatima", systemImage: "person.circle.fill")
                 }
-            Text("This is person 3! Replace me with yet another view.")
+            Person3View()
                 .tabItem {
-                    Label("Person 3", systemImage: "person.circle.fill")
+                    Label("Fhakera", systemImage: "person.circle.fill")
                 }
         }
     }

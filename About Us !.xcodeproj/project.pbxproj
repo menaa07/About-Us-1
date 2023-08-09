@@ -16,6 +16,8 @@
 		65860A072A8055DA00CAAB55 /* Person1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65860A062A8055DA00CAAB55 /* Person1View.swift */; };
 		65860A092A80567100CAAB55 /* mena.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65860A082A80567100CAAB55 /* mena.xcassets */; };
 		65860A0F2A80576900CAAB55 /* art.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65860A0E2A80576900CAAB55 /* art.xcassets */; };
+		FED2BACA2A841DBE008D7B56 /* Person3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED2BAC92A841DBE008D7B56 /* Person3View.swift */; };
+		FED2BACC2A841DEB008D7B56 /* Fakhera.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED2BACB2A841DEB008D7B56 /* Fakhera.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		65860A062A8055DA00CAAB55 /* Person1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person1View.swift; sourceTree = "<group>"; };
 		65860A082A80567100CAAB55 /* mena.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = mena.xcassets; sourceTree = "<group>"; };
 		65860A0E2A80576900CAAB55 /* art.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = art.xcassets; sourceTree = "<group>"; };
+		FED2BAC92A841DBE008D7B56 /* Person3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person3View.swift; sourceTree = "<group>"; };
+		FED2BACB2A841DEB008D7B56 /* Fakhera.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Fakhera.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,8 @@
 		65023C652A7FBE2D00D2F254 = {
 			isa = PBXGroup;
 			children = (
+				FED2BACB2A841DEB008D7B56 /* Fakhera.xcassets */,
+				FED2BAC92A841DBE008D7B56 /* Person3View.swift */,
 				1C5DE0DB2A82A3B300597C39 /* Fatima.xcassets */,
 				1C5DE0D92A82A01900597C39 /* Person2View.swift */,
 				65860A0E2A80576900CAAB55 /* art.xcassets */,
@@ -142,6 +148,7 @@
 			files = (
 				65023C792A7FBE2E00D2F254 /* Preview Assets.xcassets in Resources */,
 				65023C762A7FBE2E00D2F254 /* Assets.xcassets in Resources */,
+				FED2BACC2A841DEB008D7B56 /* Fakhera.xcassets in Resources */,
 				65860A092A80567100CAAB55 /* mena.xcassets in Resources */,
 				65860A0F2A80576900CAAB55 /* art.xcassets in Resources */,
 				1C5DE0DC2A82A3B300597C39 /* Fatima.xcassets in Resources */,
@@ -159,6 +166,7 @@
 				65023C742A7FBE2D00D2F254 /* ContentView.swift in Sources */,
 				65023C722A7FBE2D00D2F254 /* About_Us__App.swift in Sources */,
 				65860A072A8055DA00CAAB55 /* Person1View.swift in Sources */,
+				FED2BACA2A841DBE008D7B56 /* Person3View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
